@@ -15,9 +15,14 @@ public class EstructuraDatos {
         List.Add(10);
         List.Add(20);
         List.Add(30);
-        
         List.Print();
-       
-
+         System.out.println("");
+        List.Search(10);
+         System.out.println("");
+         List.Search(30);
+         System.out.println("");
+         List.Remove(20);
+         System.out.println("");
+         List.Print();
     }
 }
